@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JHAlert.h"
+#import "JHKit.h"
 
 @interface ViewController ()
 
@@ -20,9 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self testRoundButton1];
     
+    [self testRoundView];
+    
     JHLabel *label = [[JHLabel alloc] initWithFrame:CGRectMake(100, 100, 100, 60)];
     label.text = @"asdfasd";
-    label.backgroundColor = kRedColor;
+    label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
 }
 

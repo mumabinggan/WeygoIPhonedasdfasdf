@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE084C331DBDC1780081ED64 /* libJHKit_Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEECD89B1DBDBA2500F0C93E /* libJHKit_Static.a */; };
 		BE5A819D1DBA1A6C001756C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A819C1DBA1A6C001756C6 /* main.m */; };
 		BE5A81A01DBA1A6C001756C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A819F1DBA1A6C001756C6 /* AppDelegate.m */; };
 		BE5A81A31DBA1A6C001756C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A81A21DBA1A6C001756C6 /* ViewController.m */; };
@@ -15,13 +16,6 @@
 		BE5A81AB1DBA1A6C001756C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5A81A91DBA1A6C001756C6 /* LaunchScreen.storyboard */; };
 		BE5A81B61DBA1A6C001756C6 /* WeygoIPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A81B51DBA1A6C001756C6 /* WeygoIPhoneTests.m */; };
 		BE5A81C11DBA1A6C001756C6 /* WeygoIPhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A81C01DBA1A6C001756C6 /* WeygoIPhoneUITests.m */; };
-		BE5A8B9D1DBA2E7F001756C6 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8B9C1DBA2E7F001756C6 /* AFNetworking.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BA01DBA2E87001756C6 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8B9F1DBA2E87001756C6 /* FMDB.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BA61DBA2E95001756C6 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8BA11DBA2E95001756C6 /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BA71DBA2E95001756C6 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8BA21DBA2E95001756C6 /* JSONModel.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BA81DBA2E95001756C6 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8BA31DBA2E95001756C6 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BA91DBA2E96001756C6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8BA41DBA2E95001756C6 /* Reachability.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE5A8BAA1DBA2E96001756C6 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A8BA51DBA2E95001756C6 /* SDWebImage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = BE5A81971DBA1A6C001756C6;
 			remoteInfo = WeygoIPhone;
+		};
+		BEECD89A1DBDBA2500F0C93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEECD86D1DBDB91D00F0C93E /* JHKit_Static.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE56CCEE1DBDA862009EBA07;
+			remoteInfo = JHKit_Static;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -79,6 +80,7 @@
 		BE5A8BA31DBA2E95001756C6 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "../../../../../Users/muma/Library/Developer/Xcode/DerivedData/WeygoIPhone-bazkakbqajkamkdrjiddbbrfjhzt/Build/Products/Debug-iphoneos/MBProgressHUD.framework"; sourceTree = "<group>"; };
 		BE5A8BA41DBA2E95001756C6 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = "../../../../../Users/muma/Library/Developer/Xcode/DerivedData/WeygoIPhone-bazkakbqajkamkdrjiddbbrfjhzt/Build/Products/Debug-iphoneos/Reachability.framework"; sourceTree = "<group>"; };
 		BE5A8BA51DBA2E95001756C6 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../../../Users/muma/Library/Developer/Xcode/DerivedData/WeygoIPhone-bazkakbqajkamkdrjiddbbrfjhzt/Build/Products/Debug-iphoneos/SDWebImage.framework"; sourceTree = "<group>"; };
+		BEECD86D1DBDB91D00F0C93E /* JHKit_Static.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JHKit_Static.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5A8BA61DBA2E95001756C6 /* IQKeyboardManager.framework in Frameworks */,
-				BE5A8BA71DBA2E95001756C6 /* JSONModel.framework in Frameworks */,
-				BE5A8BA81DBA2E95001756C6 /* MBProgressHUD.framework in Frameworks */,
-				BE5A8BA91DBA2E96001756C6 /* Reachability.framework in Frameworks */,
-				BE5A8BAA1DBA2E96001756C6 /* SDWebImage.framework in Frameworks */,
-				BE5A8BA01DBA2E87001756C6 /* FMDB.framework in Frameworks */,
-				BE5A8B9D1DBA2E7F001756C6 /* AFNetworking.framework in Frameworks */,
+				BE084C331DBDC1780081ED64 /* libJHKit_Static.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +112,7 @@
 		BE5A818F1DBA1A6C001756C6 = {
 			isa = PBXGroup;
 			children = (
+				BEECCF2A1DBDB90700F0C93E /* Libraries */,
 				BE5A819A1DBA1A6C001756C6 /* WeygoIPhone */,
 				BE5A81B41DBA1A6C001756C6 /* WeygoIPhoneTests */,
 				BE5A81BF1DBA1A6C001756C6 /* WeygoIPhoneUITests */,
@@ -189,6 +186,30 @@
 				BE5A8B9C1DBA2E7F001756C6 /* AFNetworking.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEECCF2A1DBDB90700F0C93E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BEECCF2B1DBDB90700F0C93E /* JHKit_Static */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BEECCF2B1DBDB90700F0C93E /* JHKit_Static */ = {
+			isa = PBXGroup;
+			children = (
+				BEECD86D1DBDB91D00F0C93E /* JHKit_Static.xcodeproj */,
+			);
+			path = JHKit_Static;
+			sourceTree = "<group>";
+		};
+		BEECD8971DBDBA2500F0C93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEECD89B1DBDBA2500F0C93E /* libJHKit_Static.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +309,12 @@
 			mainGroup = BE5A818F1DBA1A6C001756C6;
 			productRefGroup = BE5A81991DBA1A6C001756C6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BEECD8971DBDBA2500F0C93E /* Products */;
+					ProjectRef = BEECD86D1DBDB91D00F0C93E /* JHKit_Static.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BE5A81971DBA1A6C001756C6 /* WeygoIPhone */,
@@ -296,6 +323,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BEECD89B1DBDBA2500F0C93E /* libJHKit_Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJHKit_Static.a;
+			remoteRef = BEECD89A1DBDBA2500F0C93E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BE5A81961DBA1A6C001756C6 /* Resources */ = {
@@ -480,7 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J2R863TVVR;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit/Libraries/IQKeyboardManager/";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WeygoIPhone/WeygoIPhone-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -489,7 +526,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starfacealliance.WeygoIPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit/** $(PROJECT_DIR)/Libraries/JHKit/Libraries/IQKeyboardManager/";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit_Static/**";
 			};
 			name = Debug;
 		};
@@ -499,7 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J2R863TVVR;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit/Libraries/IQKeyboardManager/";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WeygoIPhone/WeygoIPhone-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -508,7 +545,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starfacealliance.WeygoIPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit/** $(PROJECT_DIR)/Libraries/JHKit/Libraries/IQKeyboardManager/";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/JHKit_Static/**";
 			};
 			name = Release;
 		};

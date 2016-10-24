@@ -9,6 +9,6 @@
 #ifndef Weygo_Prefix_pch
 #define Weygo_Prefix_pch
 
-#import "JHKit.h"
+//#import "JHKit.h"
 
 #endif /* Weygo_Prefix_pch */
