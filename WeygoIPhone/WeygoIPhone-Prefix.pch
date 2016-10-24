@@ -1,0 +1,14 @@
+//
+//  Weygo-Prefix.pch
+//  WeygoIPhone
+//
+//  Created by muma on 2016/10/21.
+//  Copyright © 2016年 weygo.com. All rights reserved.
+//
+
+#ifndef Weygo_Prefix_pch
+#define Weygo_Prefix_pch
+
+#import "JHKit.h"
+
+#endif /* Weygo_Prefix_pch */
