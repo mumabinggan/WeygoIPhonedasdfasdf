@@ -7,9 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "WGNavigationController.h"
+#import "WGMainViewController.h"
 
 @interface AppDelegate ()
-
+{
+    WGNavigationController *_rootVC;
+}
 @end
 
 @implementation AppDelegate
@@ -17,6 +21,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    _rootVC = [[WGNavigationController alloc] init];
+    WGMainViewController *mainViewController = [[WGMainViewController alloc] init];
+    [_rootVC setViewControllers:@[mainViewController]];
+    self.window.rootViewController = _rootVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

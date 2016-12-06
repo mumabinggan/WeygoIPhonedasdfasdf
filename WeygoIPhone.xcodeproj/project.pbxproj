@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BE084C331DBDC1780081ED64 /* libJHKit_Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEECD89B1DBDBA2500F0C93E /* libJHKit_Static.a */; };
+		BE1705921DBE19170034F87B /* WGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1705911DBE19170034F87B /* WGMainViewController.m */; };
+		BE1705971DBE19610034F87B /* WGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1705961DBE19610034F87B /* WGViewController.m */; };
+		BE17059A1DBE19740034F87B /* WGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1705991DBE19740034F87B /* WGObject.m */; };
+		BE17059D1DBE19870034F87B /* WGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17059C1DBE19870034F87B /* WGRequest.m */; };
+		BE1705A01DBE19950034F87B /* WGResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17059F1DBE19950034F87B /* WGResponse.m */; };
+		BE1705A31DBE19B10034F87B /* WGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1705A21DBE19B10034F87B /* WGNavigationController.m */; };
 		BE5A819D1DBA1A6C001756C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A819C1DBA1A6C001756C6 /* main.m */; };
 		BE5A81A01DBA1A6C001756C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A819F1DBA1A6C001756C6 /* AppDelegate.m */; };
 		BE5A81A31DBA1A6C001756C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5A81A21DBA1A6C001756C6 /* ViewController.m */; };
@@ -56,6 +62,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE1705901DBE19170034F87B /* WGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGMainViewController.h; sourceTree = "<group>"; };
+		BE1705911DBE19170034F87B /* WGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGMainViewController.m; sourceTree = "<group>"; };
+		BE1705951DBE19610034F87B /* WGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGViewController.h; sourceTree = "<group>"; };
+		BE1705961DBE19610034F87B /* WGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGViewController.m; sourceTree = "<group>"; };
+		BE1705981DBE19740034F87B /* WGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGObject.h; sourceTree = "<group>"; };
+		BE1705991DBE19740034F87B /* WGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGObject.m; sourceTree = "<group>"; };
+		BE17059B1DBE19870034F87B /* WGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRequest.h; sourceTree = "<group>"; };
+		BE17059C1DBE19870034F87B /* WGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRequest.m; sourceTree = "<group>"; };
+		BE17059E1DBE19950034F87B /* WGResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGResponse.h; sourceTree = "<group>"; };
+		BE17059F1DBE19950034F87B /* WGResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGResponse.m; sourceTree = "<group>"; };
+		BE1705A11DBE19B10034F87B /* WGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGNavigationController.h; sourceTree = "<group>"; };
+		BE1705A21DBE19B10034F87B /* WGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGNavigationController.m; sourceTree = "<group>"; };
 		BE5A81981DBA1A6C001756C6 /* WeygoIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeygoIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5A819C1DBA1A6C001756C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE5A819E1DBA1A6C001756C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE1705941DBE194A0034F87B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE1705981DBE19740034F87B /* WGObject.h */,
+				BE1705991DBE19740034F87B /* WGObject.m */,
+				BE1705951DBE19610034F87B /* WGViewController.h */,
+				BE1705961DBE19610034F87B /* WGViewController.m */,
+				BE17059B1DBE19870034F87B /* WGRequest.h */,
+				BE17059C1DBE19870034F87B /* WGRequest.m */,
+				BE17059E1DBE19950034F87B /* WGResponse.h */,
+				BE17059F1DBE19950034F87B /* WGResponse.m */,
+				BE1705A11DBE19B10034F87B /* WGNavigationController.h */,
+				BE1705A21DBE19B10034F87B /* WGNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		BE5A818F1DBA1A6C001756C6 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +169,7 @@
 		BE5A819A1DBA1A6C001756C6 /* WeygoIPhone */ = {
 			isa = PBXGroup;
 			children = (
+				BE1705941DBE194A0034F87B /* Base */,
 				BE5A819E1DBA1A6C001756C6 /* AppDelegate.h */,
 				BE5A819F1DBA1A6C001756C6 /* AppDelegate.m */,
 				BE5A81A11DBA1A6C001756C6 /* ViewController.h */,
@@ -144,6 +180,8 @@
 				BE5A81AC1DBA1A6C001756C6 /* Info.plist */,
 				BE5A819B1DBA1A6C001756C6 /* Supporting Files */,
 				BE5A8B6B1DBA2165001756C6 /* WeygoIPhone-Prefix.pch */,
+				BE1705901DBE19170034F87B /* WGMainViewController.h */,
+				BE1705911DBE19170034F87B /* WGMainViewController.m */,
 			);
 			path = WeygoIPhone;
 			sourceTree = "<group>";
@@ -366,9 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1705971DBE19610034F87B /* WGViewController.m in Sources */,
+				BE1705A31DBE19B10034F87B /* WGNavigationController.m in Sources */,
 				BE5A81A31DBA1A6C001756C6 /* ViewController.m in Sources */,
+				BE17059A1DBE19740034F87B /* WGObject.m in Sources */,
 				BE5A81A01DBA1A6C001756C6 /* AppDelegate.m in Sources */,
+				BE1705A01DBE19950034F87B /* WGResponse.m in Sources */,
 				BE5A819D1DBA1A6C001756C6 /* main.m in Sources */,
+				BE1705921DBE19170034F87B /* WGMainViewController.m in Sources */,
+				BE17059D1DBE19870034F87B /* WGRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
